@@ -3,9 +3,10 @@ Install Brave Browser
 https://brave.com/linux/#release-channel-installation
 
 Install additional software:
-
+```
 ┌──(karti㉿kaliCTF)-[~]
 └─$ sudo apt install -y fish terminator gedit python3-pip vim-gtk3 alien
+```
 
 Visual Studio Code
 https://code.visualstudio.com/
