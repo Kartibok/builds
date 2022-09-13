@@ -1,44 +1,39 @@
-# kali-ctf build
+kali-ctf build
+
 Install Brave Browser
 https://brave.com/linux/#release-channel-installation
 
 Install additional software:
-```shell
 ┌──(karti㉿kaliCTF)-[~]
 └─$ sudo apt install -y fish terminator gedit python3-pip vim-gtk3 alien
-```
+
 
 Visual Studio Code
 https://code.visualstudio.com/
-
 ┌──(karti㉿kaliCTF)-[~/Downloads]
 └─$ sudo dpkg -i code_1.68.1-1655263094_amd64.deb 
-Zenmap
 
+Zenmap
 ┌──(karti㉿kaliCTF)-[~/Downloads]
 └─$ sudo alien -d zenmap-7.92-1.noarch.rpm
+
 Rustup
 https://rustup.rs/
-
 ┌──(karti㉿kaliCTF)-[~/Downloads]
 └─$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh        
 info: downloading installer
-
 Welcome to Rust!
 
 source $HOME/.cargo/env
-Rustscan and Feroxbuster
 
+Rustscan and Feroxbuster
 ┌──(karti㉿kaliCTF)-[~/Downloads]
 └─$ cargo install rustscan
-
 ┌──(karti㉿kaliCTF)-[~/Downloads]
 └─$ cargo install feroxbuster
 
-terminal work
-
+Terminal work
 Powerline Fonts
-
 ┌──(karti㉿kaliCTF)-[~/git]
 └─$ git clone https://github.com/powerline/fonts.git 
 Cloning into 'fonts'...
@@ -58,7 +53,6 @@ sudo apt install fish
 100 19035  100 19035    0     0  37471      0 --:--:-- --:--:-- --:--:-- 37471
 
 Install Bobthefish
-
 fish -c "omf install bobthefish"
 Set Path:
 
@@ -70,22 +64,21 @@ Change shell
 └─$ chsh -s /usr/bin/fish
 Password: 
 Change shell back to zsh
-
  ~/g/fonts    chsh -s /bin/zsh
+
 Install Gobuster
-
 $ sudo apt install gobuster
+
 Install redis-tools
-
 sudo apt install redis-tools
+
 Install remmina
-
 sudo apt install remmina
+
 Zap
-
 sudo apt install zaproxy
-Manage ZAP Add-ons
 
+Manage ZAP Add-ons
 ViewState
 JSON View
 JWT Support
@@ -103,3 +96,24 @@ Remove HUD/Anonymous tele and Welcome Street
 Passive Scan Rules - Timestamp Disclosure to Threshold - Off
 
 Global Alert Filters - Anti Hijacking Header to Low
+
+Git folder:
+appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb
+chisel
+enum4linux
+firefox_decrypt
+fonts
+ghidra
+impacket
+Responder
+Responder.old
+rogue-jndi
+RsaCtfTool
+sherlock
+stegsolve
+volatility3
+Werkzeug-Debug-RCE
+zsh-autocomplete
+zsh-autosuggestions
+zsh-snap
+zsh-syntax-highlighting
