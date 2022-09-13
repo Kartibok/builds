@@ -1,9 +1,9 @@
-kali-ctf build
+# kali-ctf build
 Install Brave Browser
 https://brave.com/linux/#release-channel-installation
 
 Install additional software:
-```
+```shell
 ┌──(karti㉿kaliCTF)-[~]
 └─$ sudo apt install -y fish terminator gedit python3-pip vim-gtk3 alien
 ```
