@@ -1,0 +1,104 @@
+kali-ctf build
+Install Brave Browser
+https://brave.com/linux/#release-channel-installation
+
+Install additional software:
+
+┌──(karti㉿kaliCTF)-[~]
+└─$ sudo apt install -y fish terminator gedit python3-pip vim-gtk3 alien
+
+Visual Studio Code
+https://code.visualstudio.com/
+
+┌──(karti㉿kaliCTF)-[~/Downloads]
+└─$ sudo dpkg -i code_1.68.1-1655263094_amd64.deb 
+Zenmap
+
+┌──(karti㉿kaliCTF)-[~/Downloads]
+└─$ sudo alien -d zenmap-7.92-1.noarch.rpm
+Rustup
+https://rustup.rs/
+
+┌──(karti㉿kaliCTF)-[~/Downloads]
+└─$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh        
+info: downloading installer
+
+Welcome to Rust!
+
+source $HOME/.cargo/env
+Rustscan and Feroxbuster
+
+┌──(karti㉿kaliCTF)-[~/Downloads]
+└─$ cargo install rustscan
+
+┌──(karti㉿kaliCTF)-[~/Downloads]
+└─$ cargo install feroxbuster
+
+terminal work
+
+Powerline Fonts
+
+┌──(karti㉿kaliCTF)-[~/git]
+└─$ git clone https://github.com/powerline/fonts.git 
+Cloning into 'fonts'...
+remote: Enumerating objects: 968, done.
+remote: Total 968 (delta 0), reused 0 (delta 0), pack-reused 968
+Receiving objects: 100% (968/968), 20.28 MiB | 8.98 MiB/s, done.
+Resolving deltas: 100% (393/393), done.
+Terminal Theme
+
+┌──(karti㉿kaliCTF)-[~/git/fonts]
+└─$ curl -kL https://get.oh-my.fish | fish                        
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Command 'fish' not found, but can be installed with:
+sudo apt install fish
+100   178  100   178    0     0    599      0 --:--:-- --:--:-- --:--:--   601
+100 19035  100 19035    0     0  37471      0 --:--:-- --:--:-- --:--:-- 37471
+
+Install Bobthefish
+
+fish -c "omf install bobthefish"
+Set Path:
+
+┌──(karti㉿kaliCTF)-[~]
+└─$ echo "set -x PATH \$PATH $HOME/.cargo/bin" >> ~/.config/fish/config.fish 
+Change shell
+
+┌──(karti㉿kaliCTF)-[~]
+└─$ chsh -s /usr/bin/fish
+Password: 
+Change shell back to zsh
+
+ ~/g/fonts    chsh -s /bin/zsh
+Install Gobuster
+
+$ sudo apt install gobuster
+Install redis-tools
+
+sudo apt install redis-tools
+Install remmina
+
+sudo apt install remmina
+Zap
+
+sudo apt install zaproxy
+Manage ZAP Add-ons
+
+ViewState
+JSON View
+JWT Support
+Python Scripting
+Fuzz DB Files
+Fuzz DB Offensive
+Directory Lists 2.3 (and lowercase)
+Global Exclude URLs
+
+Brave Browser
+GStatic
+Google Analytics
+Font CDNs
+Remove HUD/Anonymous tele and Welcome Street
+Passive Scan Rules - Timestamp Disclosure to Threshold - Off
+
+Global Alert Filters - Anti Hijacking Header to Low
